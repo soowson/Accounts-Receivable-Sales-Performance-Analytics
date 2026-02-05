@@ -30,6 +30,11 @@ $$\text{CEI \%} = \left( \frac{\text{Current Collections}}{\text{Total Billable 
 * **Dynamic UX:** Features synchronized slicers and **Conditional Formatting** on the Gauge chart to immediately signal if YTD sales are lagging behind the previous year.
 
 ![AR_Dashboard](https://github.com/user-attachments/assets/82bb320d-a7c3-4357-9ce2-0168eedafbb7)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/82bb320d-a7c3-4357-9ce2-0168eedafbb7" width="900" alt="AR Dashboard Interactivity Demo">
+  <br>
+  <i>Interactive Power BI Dashboard: Analyzing DSO and Collection Effectiveness Index (CEI)</i>
+</p>
 
 ## 📈 Key Insights Captured
 * Aging Breakdown: Identifies that while 80% of debt is "1-30 Days Late," the CEI remains high, suggesting a stable but slightly delayed cash inflow.
