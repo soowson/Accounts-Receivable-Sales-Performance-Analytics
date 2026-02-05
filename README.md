@@ -1,10 +1,7 @@
 # Accounts Receivable & Sales Performance Analytics
 
-
 ## 📊 Project Overview
 This project provides a full-stack solution for monitoring corporate financial health, specifically focusing on the relationship between Sales Performance and Cash Collection Efficiency. By integrating SQL Server, Python, and Power BI, the project transforms raw transaction data into actionable insights regarding liquidity and credit risk.
-
----
 
 ## 🛠️ Tech Stack
 - Database: SQL Server (T-SQL) for data warehousing and view orchestration.
