@@ -41,9 +41,25 @@ $$\text{CEI \%} = \left( \frac{\text{Current Collections}}{\text{Total Billable 
 * Target Achievement: The Gauge visual provides an "at-a-glance" status of current YTD sales vs. targets, using semantic colors (Red/Green) for instant interpretation.
 
 ## 🚀 How to Run
-1. SQL: Execute the deployment script in SSMS to create the v_FinancialAnalysis view.
-2. Python: Run the financial_analysis.ipynb (or .py) script. Ensure ipykernel and pyodbc are installed in your environment.
-3. Power BI: Open the .pbix file and click Refresh to pull the latest data from the generated finance_data_ready.csv.
+
+Follow these steps to deploy and run the full ETL pipeline and reporting dashboard:
+
+### 1. SQL Server Setup
+* **Database Requirement:** Ensure you have the `AdventureWorksDW` sample database installed.
+* **View Creation:** Navigate to the `/sql` directory and execute the `v_FinancialAnalysis.sql` script in **SQL Server Management Studio (SSMS)**. This script creates the core view with the necessary `LEFT JOIN` and data cleaning logic.
+
+### 2. Python Environment & ETL Process
+* **Install Dependencies:** Open your terminal and install the required libraries using the provided file:
+  `pip install -r requirements.txt`
+* **Execute ETL:** Run the `financial_analysis.ipynb` notebook located in the `/python` folder. This will:
+    * Connect to your local SQL Server instance.
+    * Apply the **Gamma Distribution simulation** for payment delays.
+    * Generate and save the final dataset to `data/finance_data_ready.csv`.
+
+### 3. Power BI Visualization
+* **Open Report:** Launch the `AR_Dashboard.pbix` file from the `/power-bi` directory.
+* **Data Refresh:** Click the **Refresh** button in the Power BI ribbon to pull the latest data from the CSV file.
+    * *Note:* You may need to update the Data Source settings to point to the exact local path of your `finance_data_ready.csv`.
 
 ## 🗺️ Project Logic & Data Flow
 ```mermaid
