@@ -29,7 +29,6 @@ This project provides a full-stack solution for monitoring corporate financial h
 $$\text{CEI \%} = \left( \frac{\text{Current Collections}}{\text{Total Billable Amount}} \right) \times 100$$
 * **Dynamic UX:** Features synchronized slicers and **Conditional Formatting** on the Gauge chart to immediately signal if YTD sales are lagging behind the previous year.
 
-![AR_Dashboard](https://github.com/user-attachments/assets/82bb320d-a7c3-4357-9ce2-0168eedafbb7)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/82bb320d-a7c3-4357-9ce2-0168eedafbb7" width="900" alt="AR Dashboard Interactivity Demo">
   <br>
