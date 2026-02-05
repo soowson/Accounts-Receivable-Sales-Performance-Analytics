@@ -69,8 +69,6 @@ Accounts-Receivable-Sales-Performance-Analytics/
 │   └── financial_analysis.ipynb # Jupyter Notebook with Gamma simulation
 ├── power-bi/                   # Visualization layer
 │   └── AR_Dashboard.pbix       # Final Power BI report file
-├── docs/                       # Project documentation and assets
-│   └── architecture_flow.drawio # Optional: flow diagrams
 ├── README.md                   # Main project overview and instructions
 ├── requirements.txt            # Python dependencies (pandas, sqlalchemy, etc.)
 ```
